@@ -27,7 +27,7 @@ if __name__ == '__main__':
     operator = sys.argv[2]
     num2 = sys.argv[3]
     
-
+    print(f"Received arguments: num1={num1}, operator='{operator}', num2={num2}")
     if operator == '+':
         print(f"The sum of {num1} and {num2} is {additionMethod(int(num1), int(num2))}")
     elif operator == '-':
